@@ -1,22 +1,77 @@
-# CODING AGENTS: READ THIS FIRST
+# nodify.ai
 
-This is a **handoff bundle** from Claude Design (claude.ai/design).
+**Turn plain English workflows into production-ready agentic applications.**
 
-A user mocked up designs in HTML/CSS/JS using an AI design tool, then exported this bundle so a coding agent can implement the designs for real.
+---
 
-## What you should do — IMPORTANT
+## The Problem
 
-**Read `nodify/project/Nodify Landing Page.html` in full.** The user had this file open when they triggered the handoff, so it's almost certainly the primary design they want built. Read it top to bottom — don't skim. Then **follow its imports**: open every file it pulls in (shared components, CSS, scripts) so you understand how the pieces fit together before you start implementing.
+Building agent workflows is hard — even for experienced developers:
 
-**If anything is ambiguous, ask the user to confirm before you start implementing.** It's much cheaper to clarify scope up front than to build the wrong thing.
+- **Days of scaffolding** — boilerplate, state wiring, and tool permission configs for even simple workflows
+- **Framework complexity** — LangGraph, AutoGen, CrewAI each carry steep learning curves and require deep expertise to choose and structure correctly
+- **90% of people who need agents cannot build them** — non-technical founders, operators, and business teams have no path to agentic workflows without hiring engineers
 
-## About the design files
+The tools that exist today are built for developers, not for everyone else.
 
-The design medium is **HTML/CSS/JS** — these are prototypes, not production code. Your job is to **recreate them pixel-perfectly** in whatever technology makes sense for the target codebase (React, Vue, native, whatever fits). Match the visual output; don't copy the prototype's internal structure unless it happens to fit.
+---
 
-**Don't render these files in a browser or take screenshots unless the user asks you to.** Everything you need — dimensions, colors, layout rules — is spelled out in the source. Read the HTML and CSS directly; a screenshot won't tell you anything they don't.
+## The Solution
 
-## Bundle contents
+Nodify AI is built for non-technical users. Describe your workflow in plain English and get a production-ready agentic application in minutes.
 
-- `nodify/README.md` — this file
-- `nodify/project/` — the `Nodify` project files (HTML prototypes, assets, components)
+**No code. No frameworks. No engineers needed.**
+
+| Step | What happens |
+|------|-------------|
+| **01 Describe** | Tell Nodify your goal in plain English |
+| **02 Iterate** | Nodify proposes a node graph and asks clarifying questions at each node |
+| **03 Confirm** | Nodify infers required tools, APIs, and permissions — you approve |
+| **04 Generate** | Complete production-ready agentic application ready to deploy |
+
+---
+
+## Why Now
+
+Three forces converging in 2026 make this the right moment to build:
+
+- **$52B AI agent market by 2030** — growing at 46.3% CAGR from $7.84B in 2025; enterprise AI budgets now have explicit line items for agentic automation *(MarketsandMarkets, 2025)*
+- **8x more apps embedding agents in 2026** — under 5% of enterprise apps embedded agents in 2025; Gartner forecasts 40% by end of 2026 *(Gartner, 2025)*
+- **Only 25% of GenAI users have shipped an agent** — growing to 50% by 2027; the gap is intent vs. tooling *(Gartner, 2025)*
+
+LLMs now have reliable tool-use and multi-step reasoning. Agentic frameworks have matured and the patterns are known. Enterprise demand has crossed from pilot to production budget.
+
+**The missing layer is a GUI that lets anyone build, not just engineers. That layer is Nodify.**
+
+---
+
+## Why Nodify AI
+
+The only tool that combines natural language, visual structure, and production output:
+
+| Capability | LangFlow | Cursor / Claude | **Nodify AI** |
+|---|:---:|:---:|:---:|
+| Natural language input | ✕ | ✓ | ✓ |
+| Visual node graph | ✓ | ✕ | ✓ |
+| Conversational iteration per node | ✕ | ✕ | ✓ |
+| Auto-infers tools and APIs | ✕ | ✕ | ✓ |
+| Framework-agnostic output | ✕ | ✕ | ✓ |
+| Built for non-technical users | ✕ | ✕ | ✓ |
+
+---
+
+## Team
+
+We've built the systems Nodify is simplifying.
+
+**Rohan Bennur** — Co-Founder, Infrastructure
+Built production-grade infrastructure at Amagi (NBCU, DAZN scale). Deep experience in distributed systems and reliability.
+
+**SK Sankalp Kulkarni** — Co-Founder, AI Systems
+Built autonomous systems from Physical AI to LLM-based agents. Experience turning high-level intent into real-world execution.
+
+> *We built agent systems the hard way — so we're making it simple.*
+
+---
+
+*a16z Speedrun SR007 | 2026*
