@@ -1,33 +1,30 @@
-# nodify.ai
-
-**Turn plain English workflows into production-ready agentic applications.**
+<div align="center">
+  <img src="assets/logo.svg" alt="Nodify AI Logo" width="200">
+  <br><br>
+  <p><strong>The visual way to build AI agents. No code. No frameworks. Just describe what you want.</strong></p>
+</div>
 
 ---
 
 ## The Problem
 
-Most people who need agents cannot build them. Non-technical founders, operators, and business teams have no path to agentic workflows without hiring engineers.
+Building AI agents is hard. Even experienced developers spend days on boilerplate, state wiring, and framework complexity (LangGraph, AutoGen, CrewAI all carry steep learning curves).
 
-Even for experienced developers, building agents is unnecessarily hard:
-
-- **Days of scaffolding** — boilerplate, state wiring, and tool permission configs for even simple workflows
-- **Framework complexity** — LangGraph, AutoGen, CrewAI each carry steep learning curves and require deep expertise to choose and structure correctly
-
-The tools that exist today are built for developers, but even developers struggle. Everyone else is locked out completely.
+For non-technical founders, operators, and business teams? There's no path at all. You either hire engineers or you don't build agents.
 
 ---
 
 ## The Solution
 
-Nodify AI is built for non-technical users. Describe your workflow in plain English and get a production-ready agentic application in minutes.
+Nodify AI is the visual way to build AI agents. Describe your workflow in plain English, watch it take shape as a node graph in real time, and get a production-ready agentic application in minutes.
 
 **No code. No frameworks. No engineers needed.**
 
 | Step | What happens |
 |------|-------------|
 | **01 Describe** | Tell Nodify your goal in plain English |
-| **02 Iterate** | Nodify proposes a node graph and asks clarifying questions at each node |
-| **03 Confirm** | Nodify infers required tools, APIs, and permissions — you approve |
+| **02 Iterate** | Nodify proposes a visual node graph and asks clarifying questions at each node |
+| **03 Confirm** | Nodify infers required tools, APIs, and permissions — you approve visually |
 | **04 Generate** | Complete production-ready agentic application ready to deploy |
 
 ---
