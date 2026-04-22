@@ -289,11 +289,12 @@
 
   .problem-card-role {
     font-family: 'Space Mono', monospace;
-    font-size: 10px;
-    letter-spacing: 0.2em;
+    font-size: 14px;
+    letter-spacing: 0.15em;
     text-transform: uppercase;
-    color: var(--gray-4);
+    color: var(--white);
     margin-bottom: 20px;
+    font-weight: 600;
   }
 
   .problem-card-title {
