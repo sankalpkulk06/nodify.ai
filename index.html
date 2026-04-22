@@ -725,9 +725,10 @@ function handleSubmit(e) {
   e.preventDefault();
   const btn = document.getElementById('submit-btn');
   const field = document.getElementById('email-field');
-  btn.innerHTML = "You\u2019re on the list \u2713";
+  btn.innerHTML = "\u2713 You\u2019re on the list!";
   btn.style.background = 'linear-gradient(135deg, #00c8ff 0%, #00a0d4 100%)';
-  btn.style.color = '#000';
+  btn.style.color = '#050507';
+  btn.style.fontWeight = '600';
   field.disabled = true;
   btn.disabled = true;
 }
