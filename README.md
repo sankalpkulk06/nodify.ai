@@ -10,7 +10,7 @@ Building agent workflows is hard — even for experienced developers:
 
 - **Days of scaffolding** — boilerplate, state wiring, and tool permission configs for even simple workflows
 - **Framework complexity** — LangGraph, AutoGen, CrewAI each carry steep learning curves and require deep expertise to choose and structure correctly
-- **90% of people who need agents cannot build them** — non-technical founders, operators, and business teams have no path to agentic workflows without hiring engineers
+- **Most people who need agents cannot build them** — non-technical founders, operators, and business teams have no path to agentic workflows without hiring engineers
 
 The tools that exist today are built for developers, not for everyone else.
 
